@@ -57,6 +57,7 @@ class Div:
     # -- List (bullet point style, indent)
     # --- ! checklists will have `checked: bool`
     # -- Prose (plaintext / paragraph)
+    # --- body: List[Span]
     # -- Reference (links to Citations)
     # -- Table (columns, alignment, rows)
     # -- Whitespace (line count)
@@ -73,4 +74,7 @@ class Span:
     # -- Citation (links to References)
     # -- Emoji
     # -- InlineCode
+    # -- LineBreak
+    # -- PlainText
+    # --- use `lines: List[str]` rather than multiple PlainText & LineBreak
     # -- Link
