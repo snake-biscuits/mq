@@ -1,5 +1,9 @@
 # TODOs
 
+> NOTE: this tool would pair well with `SlopChewy`
+> -- specifically extracting tables from markdown
+> -- could convert a `.md` into a `.sc` w/ multiple pages
+
 ## Core Operation
 
  * `.md` -> `base` Python Objects
