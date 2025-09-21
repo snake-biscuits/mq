@@ -1,13 +1,18 @@
 # TODOs
 
-> NOTE: this tool would pair well with `SlopChewy`
-> -- specifically extracting tables from markdown
-> -- could convert a `.md` into a `.sc` w/ multiple pages
+## [SlopChewy](https://github.com/snake-biscuits/SlopChewy)
+`mq` would pair well with `SlopChewy`
+specifically extracting tables from markdown
+could convert a `.md` into a `.sc` w/ multiple pages
+
+might have `SlopChewy` use `mq` as a dependency
+
 
 ## Core Operation
 
  * `.md` -> `base` Python Objects
  * `base` -> `.json` w/ `json.JsonEncoder`
+ * `jq` to reconstruct? (difficult w/ metadata in the way)
  * `.json` -> `base` w/ `json.JsonDecoder`
  * `base` -> `.md`
 

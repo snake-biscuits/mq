@@ -3,15 +3,13 @@
 **M**arkdown **Q**uery
 
 Command-line Markdown Processor
-Uses [jq](https://jqlang.github.io/jq/) as a backend
+
+Inspired by [jq](https://jqlang.github.io/jq/)
 
 
 ## Installation
 
-> WIP
-
- * `jq` must be installed and in `$PATH`
- * `pip` installation (**not on PyPI yet!**)
+> TODO
 
 
 ## Usage
